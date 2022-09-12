@@ -172,6 +172,14 @@ a>li{
         
     
 }
+#textalert{
+    width: fit-content;
+    color: black;
+    height: 25px;
+}
+.displaynone{
+    display: none;
+}
 .contact>label{
     align-self: flex-start;
 }
