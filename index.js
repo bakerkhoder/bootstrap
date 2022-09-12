@@ -14,11 +14,21 @@ function numbertest(){
       numtest=false
     }
     else{
-      numtest=true
+    
+    
+        numtest=true
+      
     }
   }
   else{
-    numtest=true
+      if(number.slice(4,5)=="3"){
+           if(number.slice(4,11).length==7){
+            numtest=false
+           }
+           else{
+            numtest=true
+           }
+      }
   }
 }
  else{
