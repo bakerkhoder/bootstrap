@@ -176,6 +176,8 @@ a>li{
     width: fit-content;
     color: black;
     height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px ;
 }
 .displaynone{
     display: none;
